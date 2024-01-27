@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel=stylesheet type=text/css href="/static/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+
+
+<body>
+	<form method="post" action="{{ url_for('submit_form') }}">
+    <main>
+        <header>
+            <h5>Shinoga Game Studios ©️<br> All Rights Reserved.</h3>
+            <h1 id="title">Survey Form</h1>
+            <p id="description">Thank You For Taking Your Time To Give Us FeedBack.<br> Please do not
+			spam, it is not funny.</p>
+        </header>
+        <form id="survey-form">
+
+            <div class="form-group">
+                <label for="name" id="name-label">Name</label>
+                <input type="text" name="name" id="name" placeholder="Enter Your Name" required>
+            </div>
+            <div class="form-group">
+                <label for="email" id="email-label">Email</label>
+                <input type="email" name="email" id="email" placeholder="Enter Your Email" required>
+            </div>
+            <div class="form-group">
+                <label for="age" id="number-label">Age</label>
+                <input type="number" name="age" id="number" min="1" max="99" placeholder="Enter Your Age">
+            </div>
+            <div class="form-group">
+                <label for="name" id="name-label">What do you think of Genshin Impact?</label>
+                <textarea rows="3" cols="33" name="q1" id="q1" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="name" id="name-label">What do you think of Valorant/Fortnite?</label>
+                <textarea rows="5" cols="33" name="q2" id="q2" required></textarea>
+            </div>
+            <label for="name" id="name-label">What type of game style looks best?</label>
+
+                <ul>
+                    <li>
+                      <input type="radio" id="Checkbox1" name="Checkbox" value="Genshin" />
+                      <label for="Checkbox1"><img src="https://cdn.discordapp.com/attachments/893536558785900575/1085074369329512518/db480a545a5895477e8c5cea14107e55.png" /></label>
+                    </li>
+                    <li>
+                      <input type="radio" id="Checkbox2" name="Checkbox" value="God Of War"/>
+                      <label for="Checkbox2"><img src="https://cdn.discordapp.com/attachments/893536558785900575/1085073625754898462/6ffbca0d04be99476571627cc24c3bca.png" /></label>
+                    </li>
+                    <li>
+                      <input type="radio" id="Checkbox3" name="Checkbox" value="Valorant"/>
+                      <label for="Checkbox3"><img src="https://cdn.discordapp.com/attachments/893536558785900575/1085073805090750464/9a72d1ec4d69ba8f99c62cc121b52865.png" /></label>
+                    </li>
+                    <li>
+                      <input type="radio" id="Checkbox4" name="Checkbox" value="Assasins creed"/>
+                      <label for="Checkbox4"><img src="https://cdn.discordapp.com/attachments/893536558785900575/1085073997881937920/e492cbc4381f8208d47b20dff57b9a0e.png" /></label>
+                    </li>
+                  </ul>
+            
+              <div class="form-group">
+                <label for="name" id="name-label">What's your favortite anime ("no" if you dont watch anime)</label>
+                <input type="text" name="q3" id="q3" placeholder="" required>
+            </div>
+            <div class="form-group">
+                <label for="name" id="name-label">If you ever had any good storyline/concept ideas for a game/manga.<br> Could you please tell us in short.</label>
+                <textarea rows="5" cols="33" name="q4" id="q4" required></textarea>
+            </div>
+            <label for="name" id="name-label">What genre of games do you like and think will blow up in future</label>
+            <ul>
+                <li>
+                  <input type="radio" id="myCheckbox5" name="myCheckbox" value="Shooter" />
+                  <label for="myCheckbox5">Shooter</label>
+                </li>
+                <li>
+                  <input type="radio" id="myCheckbox6" name="myCheckbox" value="Fantasy"/>
+                  <label for="myCheckbox6">Fantasy</label>
+                </li>
+                <li>
+                  <input type="radio" id="myCheckbox7" name="myCheckbox" value="Adventure"/>
+                  <label for="myCheckbox7">Adventure</label>
+                </li>
+                <li>
+                  <input type="radio" id="myCheckbox8" name="myCheckbox" value="Strategy"/>
+                  <label for="myCheckbox8">Strategy</label>
+                </li>
+              </ul>
+              <div class="g-recaptcha brochure__form__captcha" data-sitekey="6Lfb5_wkAAAAAAHa1jDe0lteSH7JIBcXFOClBP1D"></div>
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+</body>
+
+<script src="https://www.google.com/recaptcha/api.js"></script>
+<body bgcolor="#rrggbb">
+
+</html>

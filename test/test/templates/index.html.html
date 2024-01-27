@@ -1,0 +1,29 @@
+html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <h1>Survey Form</h1>
+    <form method="POST" action="{{ url_for('submit_survey') }}">
+      <label for="name">Name:</label>
+      <input type="text" name="name" id="name" required><br><br>
+
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email" required><br><br>
+
+      <label for="age">Age:</label>
+      <input type="number" name="age" id="age" required><br><br>
+
+      <label for="gender">Gender:</label>
+      <input type="radio" name="gender" id="gender" value="male" required>Male
+      <input type="radio" name="gender" id="gender" value="female" required>Female<br><br>
+
+      <label for="feedback">Feedback:</label>
+      <textarea name="feedback" id="feedback" required></textarea><br><br>
+
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>

@@ -1,0 +1,239 @@
+  {
+    _id: ObjectId("64105197269a384cc4fbdf57"),
+    name: 'Razor',
+    email: 'pablo42069lol@gmail.com',
+    age: '16',
+    'What do you think of Genshin Impact?': 'Touch grass bro fr',
+    'What do you think of Valorant/Fortnite?': 'Touch grass bro fr',
+    'Game style': 'God Of War',
+    Genre: 'Adventure',
+    "What's your favortite anime": 'Blue lock ',
+    'If you ever had any good storyline': "I'm dumb sorry can't help with this"
+  },
+  {
+    _id: ObjectId("64105417269a384cc4fbdf5b"),
+    name: 'Secret',
+    email: 'watchingmykidslol@gmail.com',
+    age: '99',
+    'What do you think of Genshin Impact?': 'The world is too big, also too complicated ',
+    'What do you think of Valorant/Fortnite?': "Haven't played ",
+    'Game style': 'Assasins creed',
+    Genre: 'Adventure',
+    "What's your favortite anime": 'The helpfull fox Senko-san',
+    'If you ever had any good storyline': "You're not stealing my idea bruh"
+  },
+  {
+    _id: ObjectId("64105dad269a384cc4fbdf5d"),
+    name: 'Justin',
+    email: 'no@gmail.com',
+    age: '16',
+    'What do you think of Genshin Impact?': 'W game kinda dead rn',
+    'What do you think of Valorant/Fortnite?': 'both games big W',
+    'Game style': 'Genshin',
+    Genre: 'Adventure',
+    "What's your favortite anime": 'idk fire force maybe or hxh',
+    'If you ever had any good storyline': 'no'
+  },
+  {
+    _id: ObjectId("64106056269a384cc4fbdf5e"),
+    name: 'Satya gya Madhav ke ghar mai',
+    email: 'madojaeger@gmail.com',
+    age: '15',
+    'What do you think of Genshin Impact?': "i don't play it but it seems good for those who're willing to spend time on games",
+    'What do you think of Valorant/Fortnite?': "valorant's hard, fortnite's good",
+    'Game style': 'Assasins creed',
+    Genre: 'Adventure',
+    "What's your favortite anime": 'steins;gate',
+    'If you ever had any good storyline': 'based around high school fighting, a new student comes to break the longest and oldest bullying tradititon of the school. manga around this with gangster included will be great but even without the gangsters too.\r\n' +
+      '\r\n' +
+      "as for games, something like assassin's creed 2, with great ost, characters, storyline."
+  },
+  {
+    _id: ObjectId("64106898269a384cc4fbdf5f"),
+    name: 'Sreesanth Dash',
+    email: 'beigethorton@gmail.com',
+    age: '16',
+    'What do you think of Genshin Impact?': 'Its a pretty fun and unique game.',
+    'What do you think of Valorant/Fortnite?': 'Valorant may irritate some players inthe beginning but when they get used to it, they will love it and they will get super addicted to it like me lol. And talking about fortnite its just awesome. But both the games after playing for a period of time, you will get bored becoz you will need some friends who can play with you to make the game interesting...',
+    'Game style': 'Assasins creed',
+    Genre: 'Adventure',
+    "What's your favortite anime": 'Demon Slayer for sure ❤️✨',
+    'If you ever had any good storyline': 'I have a concept like you can make a story line in which the story will show that how marks do not decide future and we can be successful if we freely follow our passion. Like ot will be really a great topic if we look into it deeply.'
+  },
+  {
+    _id: ObjectId("6410797269160cca66a1d999"),
+    name: 'Risheeek',
+    email: 'risheekteja@gmail.com',
+    age: '69',
+    'What do you think of Genshin Impact?': 'If satya is gay, Genshin Impact is a game. I think the game is good cause SATYA IS GAY',
+    'What do you think of Valorant/Fortnite?': 'Very Good Games',
+    'Game style': 'God Of War',
+    Genre: 'Strategy',
+    "What's your favortite anime": 'THE GAY SATYA',
+    'If you ever had any good storyline': "Satya being gay is life thus why it's best storyline"
+  },
+  {
+    _id: ObjectId("64107b6a69160cca66a1d99a"),
+    name: 'MythWalker',
+    email: 'imnoone508@gmail.com',
+    age: '13',
+    'What do you think of Genshin Impact?': 'gae',
+    'What do you think of Valorant/Fortnite?': 'gae',
+    'Game style': 'Genshin',
+    Genre: 'Strategy',
+    "What's your favortite anime": 'Shippuden (Naruto)',
+    'If you ever had any good storyline': 'Minecraft'
+  },
+  {
+    _id: ObjectId("64107eb069160cca66a1d99b"),
+    name: 'Krishna Chopra',
+    email: 'chopra.krishna8114@gmail.com',
+    age: '17',
+    'What do you think of Genshin Impact?': 'good game',
+    'What do you think of Valorant/Fortnite?': 'fortnight trash game valorant op fortnight trash bcz ppl can cary too many guns vaorant is good',
+    'Game style': 'Valorant',
+    Genre: 'Adventure',
+    "What's your favortite anime": 'One Piece',
+    'If you ever had any good storyline': 'its about a multi verse wher the protagonist found out that he is living inside an argumented reality and he is getiing help from outside of that argumented reality world to fulfill a task that he is the only chosen one'
+  },
+  {
+    _id: ObjectId("64109bce08c171e63c271563"),
+    name: 'Vihaan ',
+    email: 'vihaan.varma02@gmail.com',
+    age: '76',
+    'What do you think of Genshin Impact?': 'Meh',
+    'What do you think of Valorant/Fortnite?': 'Great',
+    'Game style': 'Assasins creed',
+    Genre: 'Adventure',
+    "What's your favortite anime": 'Jujutsu kaijen chainsaw man ',
+    'If you ever had any good storyline': 'Nope no idea'
+  },
+  {
+    _id: ObjectId("64109ed708c171e63c271565"),
+    name: 'jordan udon',
+    email: 'simpleanimations786@gmail.com',
+    age: '13',
+    'What do you think of Genshin Impact?': 'i dont play genshin but i have heard of it lol',
+    'What do you think of Valorant/Fortnite?': 'no. sorry i dont like them sort of games lol',
+    'Game style': 'Valorant',
+    Genre: 'Strategy',
+    "What's your favortite anime": 'deathnote',
+    'If you ever had any good storyline': 'not bothered lol sorry'
+  },
+  {
+    _id: ObjectId("6410a14b08c171e63c271566"),
+    name: 'Likey ',
+    email: 'Bruh@gmail.com',
+    age: '14',
+    'What do you think of Genshin Impact?': "A popular game amongst everyone and if you don't play it you will feel left out.\n" +
+      'The game consists of awesome graphics and amazing storylines and good looking characters\n' +
+      'which people simp for.',
+    'What do you think of Valorant/Fortnite?': 'Valorant is a shooter-game which is popular as fuck.\n' +
+      "It's like CSGO with apex legends abilities.\n" +
+      'Very unique concept and play style',
+    'Game style': 'Assasins creed',
+    Genre: 'Fantasy',
+    "What's your favortite anime": 'No',
+    'If you ever had any good storyline': 'A broken and sad person getting bullied by everyone while  being a hero and saving people anonymously and without people knowing who he/she is '
+  },
+  {
+    _id: ObjectId("6410a1d108c171e63c271567"),
+    name: 'Izuku Midoriya ',
+    email: 'affanghani456@gmail.com',
+    age: '21',
+    'What do you think of Genshin Impact?': 'So far best MMORPG game i played after Black desert.\n' +
+      "But now it's got boring for me.\n" +
+      'Trying to sell my acc.',
+    'What do you think of Valorant/Fortnite?': 'Val is good can never stop that as i have skins too.\n' +
+      'Fn is alright i go on and off in that game .',
+    'Game style': 'Valorant',
+    Genre: 'Shooter',
+    "What's your favortite anime": 'DBZ life time as Goku my inspiration.',
+    'If you ever had any good storyline': "Too long and it's in a book. So maybe later. "
+  },
+  {
+    _id: ObjectId("6410a9e173a55cb85652744f"),
+    name: 'chinmay bruv',
+    email: 'chinmayharish@gmail.com',
+    age: '15',
+    'What do you think of Genshin Impact?': 'mid game, the gacha is ass, i summoned fourty times yesterday and i kept getting only 4 stars.',
+    'What do you think of Valorant/Fortnite?': 'Val is goated, fortnite is ass',
+    'Game style': 'God Of War',
+    Genre: 'Adventure',
+    "What's your favortite anime": 'bro this is hard. hmmm. IDK',
+    'If you ever had any good storyline': 'oh you wanna make a game? Oh this is from that idea of when we were talking down no boss. i remember now. lol.'
+  },
+  {
+    _id: ObjectId("6411ce08c6af19b660cc8bde"),
+    name: 'Spicy',
+    email: 'ijwedit@gmail.com',
+    age: '23',
+    'What do you think of Genshin Impact?': "It's a decent game all can use Spicy doesn't mind playing it.",
+    'What do you think of Valorant/Fortnite?': 'Its ok.',
+    'Game style': 'Assasins creed',
+    Genre: 'Strategy',
+    "What's your favortite anime": 'There are good ones bit not that good to Spicy',
+    'If you ever had any good storyline': "A game that's single player but basically open wold has more then 3 endings depending on how you play and what you do. You can become the hero or the villain or a support for the hero or villain you choose at the end of the game main story you have a chance to turn multiplayer on and off. You can or can't have game tournaments if the development team wants it online or offline.\r\n" +
+      "Wait yeah if you dony have internet you can do those offline in the story if wanted to or not. Well its been Spicy I'll get some milk now byeee."
+  },
+  {
+    _id: ObjectId("6411f11633096a1d554c02bd"),
+    name: 'zoro',
+    email: 'zoro12@gmail.com',
+    age: '19',
+    'What do you think of Genshin Impact?': 'nice game',
+    'What do you think of Valorant/Fortnite?': 'nice but gay game',
+    'Game style': 'Valorant',
+    Genre: 'Adventure',
+    "What's your favortite anime": 'one piece',
+    'If you ever had any good storyline': 'i dont :c\r\n'
+  },
+  {
+    _id: ObjectId("6415993e1272aea32902673f"),
+    name: 'Tejasswat Rajindu',
+    email: 'playergoals@gmail.com',
+    age: '17',
+    'What do you think of Genshin Impact?': 'graphics are okay, gameplay is boring.',
+    'What do you think of Valorant/Fortnite?': "Fortnite gameplay is so trash i can't even begin to explain. Valorant while is decent, I'd take CSGO over it anyday. It's just a superior game",
+    'Game style': 'Assasins creed',
+    Genre: 'Adventure',
+    "What's your favortite anime": 'idaten jump (only 1 i watched)',
+    'If you ever had any good storyline': 'nah'
+  },
+  {
+    _id: ObjectId("6415cecbe44ec76d5a7be957"),
+    name: 'amxl',
+    email: 'amxlthegod12@gamil.com',
+    age: '15',
+    'What do you think of Genshin Impact?': 'overratted as fuck..its shit af but for the people who want a rpg type game with anime vibe or to be the simp boyplaying as girls its good\r\n',
+    'What do you think of Valorant/Fortnite?': 'valorant? playing valorant for nothing is a waste of time for example if you some esports guy go on play valorant or wanna be yes you can give it a worth try but playing that game for nothing is a waste of time also its competitive aint good for playing together with your buddies... fortnite a great game classic styled aint competitive its some old pubg vibe it aint that worse cuz its fun',
+    'Game style': 'Assasins creed',
+    Genre: 'Adventure',
+    "What's your favortite anime": 'gotta be honest here.. its death note.. didnt liked it well but still i kinda got addicted into it it aint those cringe shi we see.. if there is something new or intense always my fav',
+    'If you ever had any good storyline': "aight....this some boy who had a sad life....he wanted to make everyone happy but it was just a disappointment no one liked him so one day he was walking alone bro got hit by a thunder...he was powerful af.. sadly some villians attacked his home cuz they knew the power is with him so he just wanted to kill him but he werent there so they killed his grandma he got mad started looking for it..found it that its one of his friends...after 3 years the 'friends' saw a guy with a suit when he talked the lights were blinking his eyes were glowing yellow...he attacked them they couldnt stop it....they said sorry we had to we just tried or it would be dangerous if the power is there in earth...he attacked them after some time some dark guy came who was the guy looking for power while he was gone he attacked his friends......he saw this tried to save them...the thunder boy didnt had much experience ... but he tried his best...and the dark guy took a blast and throw it to him but he didnt died...but his crush saved him died...he got sad and mad.. become powerful.. got full power killed him like nothing (part 2 next time )"
+  },
+  {
+    _id: ObjectId("6415cf31e44ec76d5a7be958"),
+    name: "I'm vengeance ",
+    email: 'flexspitan@gmail.com',
+    age: '68',
+    'What do you think of Genshin Impact?': "Didn't got anything else to ask bruh ",
+    'What do you think of Valorant/Fortnite?': 'Sexy games ',
+    'Game style': 'God Of War',
+    Genre: 'Strategy',
+    "What's your favortite anime": 'Negative ',
+    'If you ever had any good storyline': "Yes make a hentai game;) And also I'm a robot "
+  },
+  {
+    _id: ObjectId("6415dc12c7d8bea59a7a4be3"),
+    name: 'Henry sucks ',
+    email: 'viswanath20081@gmail.com',
+    age: '14',
+    'What do you think of Genshin Impact?': 'Pretty cool visuals, I just play it for the visuals. Storyline sucks now. Looking at the sky while gliding.',
+    'What do you think of Valorant/Fortnite?': "I don't play valorant. I stopped fortnite it's cringe fr now.\r\n",
+    'Game style': 'Assasins creed',
+    Genre: 'Adventure',
+    "What's your favortite anime": 'cowboy bebop ',
+    'If you ever had any good storyline': '"bro imma kill myself fr"\r\n'
+  }
+]
