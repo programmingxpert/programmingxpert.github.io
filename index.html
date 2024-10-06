@@ -1,153 +1,274 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-  <title>ItsXpert</title>
-  <meta name="description" content="I am Satya, a young scholar with a passion for programming and related pursuits.">
-  
-  <!-- Favicon and CSS -->
-  <link rel='icon' type='image/x-icon' href='./favicon.ico'>
-  <link rel='stylesheet' href='./build/bundle.css'>
-  <link href="https://fonts.googleapis.com/css?family=News+Cycle|Titillium+Web:wght@700|Changa:wght@800" rel="stylesheet">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>ItsXpert</title>
+    <meta name="description" content="I am Satya, a young scholar with a passion for programming and related pursuits.">
+    <link rel='icon' type='image/x-icon' href='./favicon.ico'>
+    <link href="https://fonts.googleapis.com/css2?family=News+Cycle&family=Titillium+Web:wght@700&family=Changa:wght@800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel='stylesheet' href='./build/bundle.css'>
+    <meta property="og:url" content="https://itsmesatya.xyz/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="ItsXpert">
+    <meta property="og:description" content="I am Satya, a young scholar with a passion for programming. Mostly FullStack Dev.">
+    <meta property="og:color" content="#7298da">
+    <meta name="twitter:title" content="ItsXpert">
+    <meta name="twitter:description" content="I am Satya, a young scholar with a passion for programming. Mostly FullStack Dev.">
+    <meta name="twitter:card" content="summary_large_image">
+    <script>
+        if (window.location.href === "http://itsmesatya.xyz/") {
+            window.location.href = "https://itsmesatya.xyz/";
+        }
+    </script>
+    <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" type="module"></script>
+    <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js" nomodule></script>
+    <script defer src='./build/bundle.js'></script>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'News Cycle', sans-serif;
+            background-color: #f5f5f5;
+        }
 
-  <!-- Meta Tags for SEO and Social Sharing -->
-  <meta itemprop="name" content="ItsXpert">
-  <meta itemprop="description" content="I am Satya, a young scholar with a passion for programming and related pursuits. Mostly FullStack Dev.">
-  <meta property="og:url" content="https://itsmesatya.xyz/">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="ItsXpert">
-  <meta property="og:description" content="I am Satya, a young scholar with a passion for programming and related pursuits. Mostly FullStack Dev.">
-  <meta property="og:color" content="#7298da">
-  <meta name="twitter:title" content="ItsXpert">
-  <meta name="twitter:description" content="I am Satya, a young scholar with a passion for programming and related pursuits. Mostly FullStack Dev.">
-  <meta name="twitter:card" content="summary_large_image">
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px;
+            background-color: #333;
+        }
 
-  <!-- Ionicons -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        nav img.logo {
+            width: 150px;
+        }
 
-  <!-- Redirect Script -->
-  <script>
-    if (window.location.href === "http://itsmesatya.xyz/") {
-      window.location.href = "https://itsmesatya.xyz/";
-    }
-  </script>
+        nav ul {
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+            font-family: 'Titillium Web', sans-serif;
+        }
+
+        .bg {
+            text-align: center;
+            background-color: #7298da;
+            padding: 100px 0;
+        }
+
+        .text-container h1 {
+            font-size: 3rem;
+            font-family: 'Changa', sans-serif;
+            color: white;
+        }
+
+        .text-container h2 {
+            font-size: 1.5rem;
+            color: #f0f0f0;
+        }
+
+        .social a {
+            margin: 0 10px;
+            color: white;
+            font-size: 2rem;
+        }
+
+        .about, .projects {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .about h1, .projects h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .about p {
+            font-size: 1.2rem;
+            color: #555;
+            line-height: 1.5;
+            margin-bottom: 30px;
+        }
+
+        .social2 a {
+            margin: 0 10px;
+            font-size: 1.5rem;
+        }
+
+        .project-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+
+        .project-image img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+        }
+
+        .project-info {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .project-info h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .project-info p {
+            font-size: 1rem;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .project-button {
+            text-decoration: none;
+            color: white;
+            background-color: #333;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin: 5px;
+            display: inline-block;
+            transition: background-color 0.3s;
+        }
+
+        .project-button:hover {
+            background-color: #555;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 768px) {
+            .text-container h1 {
+                font-size: 2.5rem;
+            }
+
+            .text-container h2 {
+                font-size: 1.2rem;
+            }
+
+            nav ul li a {
+                font-size: 1rem;
+            }
+
+            .about p {
+                font-size: 1rem;
+            }
+
+            .project-image img {
+                max-width: 100%;
+            }
+
+            .project-info h3 {
+                font-size: 1.3rem;
+            }
+
+            .project-info p {
+                font-size: 0.9rem;
+            }
+        }
+    </style>
 </head>
+
 <body>
 
-  <!-- Navigation -->
-  <header class="header">
-    <nav class="nav">
-      <a href="#" class="logo"><img src="logo2.png" alt="Logo"></a>
-      <ul class="nav-list">
-        <li><a href="#">Home</a></li>
-        <li><a href="#about">About me</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="https://yuk1real.carrd.co/" target="_blank">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <!-- Hero Section -->
-  <section class="hero">
-    <div class="text-container">
-      <h1 class="animate__animated animate__bounceIn">ItsXpert</h1>
-      <h2 class="animate__animated animate__bounceIn">~ Just another programming fanatic :)</h2>
-      <div class="social-links animate__animated animate__backInDown">
-        <a href="https://github.com/programmingxpert" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
-        <a href="https://twitter.com/me_xpert" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
-        <a href="https://discord.gg/Wza8Rv7fk5" target="_blank"><ion-icon name="logo-discord"></ion-icon></a>
-      </div>
+    <!-- Navbar -->
+    <div class="menu">
+        <nav>
+            <img src="logo2.png" class="logo" alt="ItsXpert Logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="https://yuk1real.carrd.co/" target="_blank">Contact</a></li>
+            </ul>
+        </nav>
     </div>
-  </section>
 
-  <!-- About Section -->
-  <section id="about" class="about">
-    <div class="container">
-      <h1>About me</h1>
-      <p>Hey! My Name's Satya, Also known as 'Xpert/Yuki' Online. I am a High School Student from India!</p>
-      <p>I love developing games, web applications, and software. I started programming in 2018 with web development using JavaScript, HTML, and CSS, followed by learning Python, Rust, Lua, and more.</p>
-      <div class="social-links">
-        <a href="https://github.com/programmingxpert" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
-        <a href="https://twitter.com/me_xpert" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
-        <a href="https://discord.gg/ehuFKH88SM" target="_blank"><ion-icon name="logo-discord"></ion-icon></a>
-      </div>
+    <!-- Header Section -->
+    <div class="bg">
+        <div class="text-container">
+            <h1 class="animate__animated animate__bounceIn animate__delay-.8s">ItsXpert</h1>
+            <h2 class="animate__animated animate__bounceIn animate__delay-1s">~ Just another programming fanatic :)</h2>
+        </div>
+
+        <div class="social animate__animated animate__backInDown animate__delay-2s">
+            <a href="https://github.com/programmingxpert" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+            <a href="https://twitter.com/me_xpert" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
+            <a href="https://discord.gg/Wza8Rv7fk5" target="_blank"><ion-icon name="logo-discord"></ion-icon></a>
+        </div>
     </div>
-  </section>
 
-  <!-- Projects Section -->
-  <section id="projects" class="projects">
-    <div class="container">
-      <h2>Projects</h2>
-
-      <!-- Project 1 -->
-      <div class="project-card">
-        <div class="project-image">
-          <img src="lp.png" alt="LoginPage">
+    <!-- About Section -->
+    <div id="about" class="about">
+        <h1>About Me</h1>
+        <p>Hey! My name's Satya, also known as 'Xpert/Yuki' online. I am a high school student from India! I love developing things like games, web applications, and software. I started programming in 2018, beginning with web development using JavaScript, HTML, and CSS. Since then, I’ve learned languages like Python, Rust, Lua, and more.</p>
+        <div class="social2">
+            <a href="https://github.com/programmingxpert" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+            <a href="https://twitter.com/me_xpert" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
+            <a href="https://discord.gg/ehuFKH88SM" target="_blank"><ion-icon name="logo-discord"></ion-icon></a>
         </div>
-        <div class="project-info">
-          <h3>LoginPage</h3>
-          <p>An amazing LoginPage that I developed, including the frontend and backend.</p>
-          <a class="project-button" href="error.html">Test this out!</a>
-          <a class="project-button" href="https://github.com/programmingxpert" target="_blank">
-            <ion-icon name="logo-github"></ion-icon>
-          </a>
-        </div>
-      </div>
-
-      <!-- Project 2 -->
-      <div class="project-card">
-        <div class="project-image">
-          <img src="RF.png" alt="RenderFlaskPrj">
-        </div>
-        <div class="project-info">
-          <h3>RenderFlaskPrj</h3>
-          <p>A Flask app deployed on Render for the backend of my website.</p>
-          <a class="project-button" href="https://github.com/programmingxpert/flask-hello-world" target="_blank">
-            <ion-icon name="logo-github"></ion-icon> Check this project out!
-          </a>
-        </div>
-      </div>
-
-      <!-- Project 3 -->
-      <div class="project-card">
-        <div class="project-image">
-          <img src="gd.png" alt="Discord Bot">
-        </div>
-        <div class="project-info">
-          <h3>Discord Bot</h3>
-          <p>An Open Source Discord music bot. You're free to use it. This bot was formerly called 'Ganyuu'.</p>
-          <a class="project-button" href="https://github.com/programmingxpert/Ganyuu_DiscordBot" target="_blank">
-            <ion-icon name="logo-github"></ion-icon> Check this project out!
-          </a>
-        </div>
-      </div>
-
-      <!-- Game Plans -->
-      <h3>New Game plans to release!</h3>
-      <div class="project-card">
-        <div class="project-image">
-          <img src="shinoga.jpg" alt="Shinoga">
-        </div>
-        <div class="project-info">
-          <h3>Shinoga Game Studios 🎮</h3>
-          <p>A cool game that is being developed and is expected to launch within a few years!</p>
-        </div>
-      </div>
     </div>
-  </section>
 
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="container">
-      <p>&copy; 2023 ItsXpert. All Rights Reserved.</p>
-      <p>Powered by Shinoga</p>
+    <!-- Projects Section -->
+    <div id="projects" class="projects">
+        <h2>Projects</h2>
+
+        <!-- Project 1 -->
+        <div class="project-card">
+            <div class="project-image">
+                <img src="lp.png" alt="LoginPage">
+            </div>
+            <div class="project-info">
+                <h3>LoginPage</h3>
+                <p>An amazing LoginPage that I developed, including the frontend and backend.</p>
+                <a class="project-button" href="error.html">Test this out!</a>
+                <a class="project-button" href="https://github.com/programmingxpert" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+            </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+            <div class="project-image">
+                <img src="gameimage.png" alt="GameImage">
+            </div>
+            <div class="project-info">
+                <h3>Yuki's Game</h3>
+                <p>Another game I've been working on lately.</p>
+                <a class="project-button" href="https://www.roblox.com/games/10271191980/" target="_blank">Play now!</a>
+            </div>
+        </div>
+
     </div>
-  </footer>
 
-  <!-- Scripts -->
-  <script defer src='./build/bundle.js'></script>
+    <!-- Footer Section -->
+    <footer>
+        &copy; 2024 ItsXpert - Satya | All rights reserved.
+    </footer>
+
 </body>
+
 </html>
